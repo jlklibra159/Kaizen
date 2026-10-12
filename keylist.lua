@@ -5,7 +5,7 @@
 return {
     ["KAIZEN-VIP-001-637"] = {
         type = "VIP",
-        expiry = "2026-11-11",
+        expiry = "2026-10-13",
         valid = true,
         max_devices = 1,
         SLOT = "1"
