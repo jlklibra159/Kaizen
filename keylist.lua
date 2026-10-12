@@ -1,34 +1,45 @@
--- keylist.lua - GitHub pe rakho
--- max_devices = 1 (matlab sirf ek phone)
--- max_devices = 20 (matlab 20 phones mein chalegi)
+-- keylist.lua
+-- Five VIP keys, one device per key.
+-- Expiry is a fixed date; it is not calculated from first activation.
 
 return {
-    ["QUARTER"] = {
+    ["KAIZEN-VIP-001-637"] = {
         type = "VIP",
-        expiry = "2027-12-31",
+        expiry = "2026-11-11",
         valid = true,
-        max_devices = 20,
+        max_devices = 1,
         SLOT = "1"
     },
-    ["DEMO123"] = {
-        type = "DEMO",
-        expiry = "2026-08-01",
+
+    ["KAIZEN-VIP-002"] = {
+        type = "VIP",
+        expiry = "2026-11-11",
         valid = true,
-        max_devices = 5,
+        max_devices = 1,
         SLOT = "2"
     },
-    ["SINGLE_USER"] = {
+
+    ["KAIZEN-VIP-003"] = {
         type = "VIP",
-        expiry = "2025-01-01",
+        expiry = "2026-11-11",
         valid = true,
         max_devices = 1,
         SLOT = "3"
     },
-    ["BLOCKED"] = {
-        type = "BLOCKED",
-        expiry = "2026-12-31",
-        valid = false,
+
+    ["KAIZEN-VIP-004"] = {
+        type = "VIP",
+        expiry = "2026-11-11",
+        valid = true,
         max_devices = 1,
-        SLOT = "0"
+        SLOT = "4"
+    },
+
+    ["KAIZEN-VIP-005"] = {
+        type = "VIP",
+        expiry = "2026-11-11",
+        valid = true,
+        max_devices = 1,
+        SLOT = "5"
     }
 }
